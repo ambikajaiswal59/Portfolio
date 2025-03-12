@@ -1,0 +1,15 @@
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+git init
+git add
+git commit -m "Initial Commit"
+
+
+
+SSH Key generate
+
+git remote add origin git@github.com:ambikajaiswal59/Portfolio.git   #from github
+git push origin master
+ssh-keygen -t rsa -b 4096 -C "ambikajaiswal59@gmail.com"
+cat /c/Users/MLINFO299/.ssh/id_rsa.pub
+git push origin master
